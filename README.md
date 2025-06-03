@@ -18,3 +18,5 @@ Because the .tcl script generates individual .bgf cluster files, the QChem input
 To generate QChem inputs run bgftoqcin.sh in the directory containing Templates and the bgf files.
 
 To analyze .qcouts after the Qchem runs, run Qcout-IP.sh.
+
+The provided templates should be editted based on the user's calculation requirements. e.g. Although the scripts take a dielectric constant input, the Templates do not include a call to use any implicit solvent model. 
