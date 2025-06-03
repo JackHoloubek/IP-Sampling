@@ -1,0 +1,23 @@
+
+@@@
+
+$solvent
+   Dielectric        {dielec}
+$end
+
+$rem
+   METHOD {exch}
+   BASIS {basis}
+   SCF_ALGORITHM	GDM
+   SCF_GUESS	SAD
+   UNRESTRICTED	TRUE
+   MAX_SCF_CYCLES	250
+   SCF_CONVERGENCE	5
+   THRESH	14 
+   CHELPG	TRUE
+   MEM_TOTAL	248000
+   MEM_STATIC	24800
+$end
+
+$molecule   
+   {charge:} {mult}

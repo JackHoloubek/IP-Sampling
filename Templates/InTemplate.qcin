@@ -1,0 +1,23 @@
+$solvent
+   Dielectric        {dielec}
+$end
+
+$rem
+   GEN_SCFMAN	true
+   METHOD {exch}
+   BASIS {basis}
+   MAX_SCF_CYCLES	250
+   SCF_CONVERGENCE	5
+   SCF_ALGORITHM     GDM
+   THRESH	14 
+   CHELPG	TRUE
+   SYMMETRY	FALSE
+   SYM_IGNORE	TRUE
+   SCF_GUESS	SAD
+   MOLDEN_FORMAT	true
+   MEM_TOTAL	248000
+   MEM_STATIC	24800
+$end
+
+$molecule   
+   {charge:} {mult}
