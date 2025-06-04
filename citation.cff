@@ -1,10 +1,12 @@
 cff-version: 1.2.0
 message: "If you use these scripts, please cite:"
-version: 1.0.0
-doi: 10.5281/zenodo.15595184
+title: "IP sampling scripts"
+version: "1.0.0"
+doi: "10.5281/zenodo.15595184"
 date-released: 2025-06-04
+url: "https://github.com/JackHoloubek/IP-Sampling"
+
 authors:
   - family-names: Holoubek
     given-names: John
     orcid: "https://orcid.org/0000-0003-0015-4512"
-url: "https://github.com/JackHoloubek/IP-Sampling"
